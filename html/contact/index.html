@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>お問い合わせ - MY PORTFOLIO</title>
+    <link href="../style.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- ▼ ヘッダー : 開始-->
+<header class="l-header">
+    <div class="c-header-description">田中太郎のポートフォリオサイト</div>
+    <a class="c-logo" href="../">
+        <div class="c-logo__image">
+            <img src="../images/logo.png" alt="MY PORTFOLIO">
+        </div>
+        <div class="c-logo__text">MY PORTFOLIO</div>
+    </a>
+    <div class="c-global-nav">
+        <ul>
+            <li>
+                <a href="../">HOME</a>
+            </li>
+            <li>
+                <a href="../profile/">PROFILE</a>
+            </li>
+            <li>
+                <a href="../blog/">BLOG</a>
+            </li>
+            <li>
+                <a href="../contact/">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+</header>
+<!-- ▲ ヘッダー : 終了-->
+
+<!-- ▼ コンテンツ : 開始-->
+<div class="l-wrapper">
+    <div class="l-main">
+        <div class="l-container is-sm">
+            <h1 class="c-post__title">お問い合わせ</h1>
+            <div class="entry-content">
+                <!-- ▼ メールフォーム : 開始-->
+                <p>田中太郎へのお問い合わせは、下記メールフォームより送信してください。<br>
+                    ※当サイトにおける個人情報の取り扱いについては、「<a href="../privacy-policy/">プライバシーポリシー</a>」ページをご確認ください。</p>
+                <p><strong>お名前 <span class="is-required">※必須</span></strong><br>
+                <input name="name" type="text" placeholder="お名前をご入力ください"></p>
+                <p><strong>メールアドレス <span class="is-required">※必須</span></strong><br>
+                <input name="email" type="email" placeholder="メールアドレスをご入力ください"></p>
+                <p><strong>お問い合わせ内容 <span class="is-required">※必須</span></strong><br>
+                <textarea name="message" placeholder="お問い合わせ内容をご入力ください"></textarea></p>
+                <p><strong>当サイトを知ったきっかけ <span class="is-required">※必須</span></strong><br>
+                    <label><input type="radio" name="where" value="検索エンジン"> 検索エンジン</label>
+                    <label><input type="radio" name="where" value="SNS"> SNS</label>
+                    <label><input type="radio" name="where" value="知人の紹介"> 知人の紹介</label>
+                    <label><input type="radio" name="where" value="その他"> その他</label></p>
+                <p>
+                    <input type="submit" class="c-button" value="確認画面へ">
+                </p>
+                <!-- ▲ メールフォーム : 終了-->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ▲ コンテンツ : 終了-->
+
+<!-- ▼ フッター : 開始-->
+<footer class="l-footer">
+    <div class="l-container">
+        <p class="c-footer-description">田中太郎のポートフォリオサイト</p>
+        <a class="c-logo is-white" href="../">
+            <div class="c-logo__image">
+                <img src="../images/logo.png" alt="MY PORTFOLIO">
+            </div>
+            <div class="c-logo__text">MY PORTFOLIO</div>
+        </a>
+    </div>
+</footer>
+<div class="c-copyright">
+    <p>Copyright © 2019 MY PORTFOLIO All Rights Reserved.</p>
+</div>
+<!-- ▲ フッター : 終了-->
+</body>
+</html>
